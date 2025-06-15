@@ -1,7 +1,9 @@
-package com.tasktracker.backend.repository;
+package com.tasktracker.demo.repository;
 
-import com.tasktracker.backend.model.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.tasktracker.demo.model.Task;
+
 import java.util.List;
 // TaskRepository.java
 public interface TaskRepository extends JpaRepository<Task, Long> {

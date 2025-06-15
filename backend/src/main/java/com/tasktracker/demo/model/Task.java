@@ -1,4 +1,4 @@
-package com.tasktracker.backend.model;
+package com.tasktracker.demo.model;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
